@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
 <head>
     <title>Signup Page</title>
-    <link rel="stylesheet" href="Style/Login.css">
+    <link rel="stylesheet" href="Style/Signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
-<body style= " background-color:#E97451;">
-    
+<body style="background-color:#E97451;">
+    <form>
+        <img src="Assets/TICKIFY create account.png" alt="logo image" style="width: 200px; height: 200px;"><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="Email"><br>
+        <label for="Password">Password:</label><br>
+        <input type="password" id="Password" name="Password"><br>
+        <label for="Confirm Password">Confirm Password:</label><br>
+        <input type="password" id="Confirm Password" name="Confirm Password"><br>
+        <label for="Phone Number">Phone Number:</label><br>
+        <input type="text" id="Phone Number" name="Phone Number"><br><br>
+
+        <label for="user type">User Type:</label><br>
+        <input type = "checkbox" id = "Buyer" value = "Buyer">
+        <label for="Buyer">Buyer</label>
+        <input type = "checkbox" id = "Seller" value = "Seller">
+        <label for="Seller">Seller</label><br><br>
+        <button class = "button">Submit</button>
+    </form>
 </body>
